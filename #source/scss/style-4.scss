@@ -1,0 +1,107 @@
+// Обнуление
+@import "../scss/nullstyle.scss";
+
+
+
+// header
+@import "../scss/headerstyle.scss";
+// Основные положения 
+@import "../scss/main.scss";
+
+/*----content----**/
+.content{
+    width: 100%;
+    padding: 0px 120px;
+    
+}
+/*----contact-us----**/
+.contact-us{
+	text-align: center;
+	margin: 20px 0px 80px 0px;
+	&__title {
+		font-family: Poppins;
+		font-size: 56px;
+		font-weight: 700;
+		line-height: 140%;
+	}
+
+	&__text {
+		color: #000;
+		margin: 35px 0px 80px 0px;
+	}
+}
+/*----form----**/
+.form {
+	padding:0px 300px;
+	&-input {
+		&__title {
+			font-size: 18px;
+		}
+
+		&__text {
+			border:1px solid #9C9C9C;
+			padding: 18px 32px; 
+			font-family: Poppins;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 160%;
+			width:100%;
+		}
+
+		&__textarea {
+			border:1px solid #9C9C9C;
+			padding: 18px 32px; 
+			font-family: Poppins;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 160%;
+			width:100%;
+		}
+	}
+
+	&-number{
+		display:flex;
+		.form-input__text{
+			border-left: 1px solid #fff;
+		}
+	}
+	&-select{
+		padding:18px 0px 18px 32px;
+		border-right: 1px solid #fff;
+		margin: 0px -2px 0px 0px;
+	}
+	&-name {
+		display:flex;
+		justify-content: space-between;
+
+		.form-input__text {
+			width:500px;
+		}
+	}
+	&-link{
+		
+	}
+}
+/*----loaction----**/
+.loaction {
+	margin: 40px 0px;
+	&-top {
+		&__line {
+			margin:-14px 0px 0px 120px;
+		}
+	}
+	&-bottom {
+		display:flex;
+		flex-direction: row;
+		align-items: start;
+		justify-content: space-between;
+		&-column {
+			&__subtitle {
+				font-size:24px;
+			}
+		}
+	}
+}
+
+//footer
+@import "../scss/footersyle.scss";

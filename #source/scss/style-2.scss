@@ -1,0 +1,124 @@
+// Обнуление
+@import "../scss/nullstyle.scss";
+
+
+
+// header
+@import "../scss/headerstyle.scss";
+// Основные положения 
+@import "../scss/main.scss";
+
+/*----content----**/
+.content{
+    width: 100%;
+    padding: 0px 120px;
+    
+}
+/*----services----*/
+.services {
+	text-align: center;
+	margin: 20px 0px 80px 0px;
+	&__title {
+		font-family: Poppins;
+		font-size: 56px;
+		font-weight: 700;
+		line-height: 140%;
+	}
+
+	&__text {
+		color: #000;
+		margin: 35px 0px 80px 0px;
+	}
+}
+/*----achievement----*/
+.achievement {
+	&-top {
+		&__line {
+			margin:-14px 0px 0px 130px;
+		}
+	}
+	&-bottom {
+		&-row {
+			display:flex;
+			align-items: center;
+			margin: 60px 0px 20px 0px;
+			&-body {
+				&__title {
+					font-size:24px;
+				}
+			}
+			&__image {
+				margin: 0px 160px 0px 0px;
+			}
+		}
+	}
+}
+
+/*----product----*/
+.product{
+	margin: 60px 0px ;
+	&-top{
+		 div:last-child{
+			  margin: 20px 0px;
+			  display:flex;
+			  justify-content:space-between;
+			  align-items:center;
+		 }
+		 &__line{
+			  margin:-14px 0px 0px 90px;
+		 }
+	  }
+	&-bottom{
+		 &__list{
+			  padding:10px 0px;
+			  
+			  .item-list{
+					margin:40px 0px;
+					display:flex;
+					justify-content:space-between;
+					.text-content{
+						 display:flex;
+						 p{
+							  font-family: Poppins,sans-serif;
+							  font-size: 24px;
+							  font-weight: 600;
+							  line-height: 140%; 
+							  .under-text{
+									font-family: Poppins,sans-serif;
+									font-size: 18px;
+									font-weight: 400;
+									line-height: 160%;
+							  }
+						 }
+						 p:last-child{
+							  margin: 0px 0px 0px 70px;
+						 }
+					}
+			  }
+		 }
+	}
+}
+
+/*----contact us----*/
+.contact-us {
+	margin: 40px 0px;
+	background-color: #2C3878;
+	padding:38px 120px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	&__title {
+		color:#FFF;
+	}
+
+	&__column {
+	}
+
+	&__text {
+		color:#FFF;
+		margin: 0px 0px 40px 0px;
+	}
+}
+
+//footer
+@import "../scss/footersyle.scss";

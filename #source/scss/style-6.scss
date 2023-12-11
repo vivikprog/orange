@@ -1,0 +1,88 @@
+// Обнуление
+@import "../scss/nullstyle.scss";
+
+
+
+// header
+@import "../scss/headerstyle.scss";
+// Основные положения 
+@import "../scss/main.scss";
+
+/*----content----**/
+.content{
+    width: 100%;
+    padding: 0px 120px;
+}
+/*----minimalist----*/
+.minimalist {
+	text-align: center;
+	margin: 20px 0px 80px 0px;
+	&__title {
+		font-family: Poppins;
+		font-size: 56px;
+		font-weight: 700;
+		line-height: 140%;
+	}
+
+	&__text {
+		color: #000;
+		margin: 35px 0px 80px 0px;
+	}
+}
+/*----design----*/
+.design{
+	&-top{
+		display: flex;
+		justify-content: space-between;
+		&-column{
+			
+			&__title{
+				font-size: 24px;
+			}
+			&__text{
+				margin: 0px 0px 60px 0px;
+			}
+			div{
+				margin:60px 0px 0px 0px;
+				display: flex;
+				p:first-child{
+					margin: 0px 80px 0px 0px;
+				}
+
+			}
+		}
+	}
+	&-bottom{
+		padding:0px 200px;
+		&-row{
+			img:first-child{
+				margin: 28px 28px 28px 0px;
+			}
+			img:last-child{
+				margin: 28px 0px 28px 0px;
+			}
+		}
+	}
+}
+/*----contact us----*/
+.contact-us {
+	margin: 40px 0px;
+	background-color: #2C3878;
+	padding:38px 120px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	&__title {
+		color:#FFF;
+	}
+
+	&__column {
+	}
+
+	&__text {
+		color:#FFF;
+		margin: 0px 0px 40px 0px;
+	}
+}
+//footer
+@import "../scss/footersyle.scss";

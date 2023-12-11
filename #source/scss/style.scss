@@ -1,0 +1,254 @@
+// Обнуление
+@import "../scss/nullstyle.scss";
+
+
+
+// header
+@import "../scss/headerstyle.scss";
+
+/*----content----**/
+.content{
+    width: 100%;
+    padding: 0px 120px;
+    
+}
+/*----design----*/
+.design{
+    width:100%;
+    &-top__line{
+        height:3px;
+        background-color:black;
+        margin: -248px 40px 0px 500px;
+    }
+    &-top__title{
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 140%;
+        font-family: Poppins, sans-serif;
+    }
+    &-top__text{
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+        margin: 100px 0px 0px 88%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+        font-family: Poppins;
+    }
+
+    &-bottom{
+        margin: 120px 0px 0px 0px;
+        height:513px;
+        background-image: url("../img/home/block_1/unsplash_G7sE2S4Lab4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .column{
+            position: absolute;
+            margin: -220px 0px 0px 50%;
+            width: 252px;
+            height: 525px;
+            background-color: #2C3878;
+            padding: 50px 40px;
+            display:flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items:center;
+            &__item p{
+                color:#fff;
+                text-align: center;
+            }
+            &__item p:first-child{
+                font-family: Poppins,sans-serif;
+                font-size: 52px;
+                font-weight: 400;
+                line-height: 160%;
+            }
+            &__item p:last-child{
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 160%;
+            }
+            
+        }
+        
+    }
+}
+/*----about----*/
+.about{
+    margin:40px 0px 0px 0px;
+    &-top{
+        &__line{
+            margin:-14px 0px 0px 70px;
+        }
+    }
+    &-bottom{
+        display:flex;
+        &__info{
+            display: flex;
+            align-items: center;
+            padding: 17px 30px 17px 20px;
+            background-color: #FFF;
+            margin: 0px 0px 100px -75px;
+            & p{
+                margin:0px 0px 0px 20px;
+                font-family: Poppins,sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140%;
+                .undefined-text{
+                    font-family: Poppins,sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    color:#9C9C9C;
+                }
+            }
+        }
+        &__item:last-child{
+            margin: 30px 0px;
+        }
+        &__text{
+            margin: 20px 0px 60px 80px;
+        }
+        &__link{
+            margin: 10px 0px 0px 80px;
+        }
+    }
+}
+/*----service----*/
+.service {
+    margin: 40px 0px 0px 0px;
+    width:883px;
+    background-color: #FFF;
+    &-top{
+        &__line{
+            margin:-14px 0px 0px 75px;
+        }
+    }
+    &-bottom{
+        height:270px;
+        margin: 0px 0px 500px 0px;
+        &__list{
+            padding:10px 0px;
+            .item-list{
+                margin:40px 40px 40px 0px ;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                p{
+                    font-family: Poppins,sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 140%;
+                    .numbers{
+                        margin: 0px 20px 0px 0px;
+                    }
+                }
+            }
+        }
+        .serice-bottom__image{
+				max-width:1076px ;
+            position: relative;
+            z-index: -1;
+            margin: -150px 0px 0px 125px;
+        }
+    }
+
+}
+/*----product----*/
+.product{
+    &-top{
+        div:last-child{
+            margin: 20px 0px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        &__line{
+            margin:-14px 0px 0px 90px;
+        }
+		}
+    &-bottom{
+        &__list{
+            padding:10px 0px;
+            
+            .item-list{
+                margin:40px 0px;
+                display:flex;
+                justify-content:space-between;
+                .text-content{
+                    display:flex;
+                    p{
+                        font-family: Poppins,sans-serif;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 140%; 
+                        .under-text{
+                            font-family: Poppins,sans-serif;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 160%;
+                        }
+                    }
+                    p:last-child{
+                        margin: 0px 0px 0px 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*----material----*/
+.material{
+    display:flex;
+    margin: 80px 0px 0px 0px;
+    &-text-content{
+        width: 40%;
+        &__line{
+            margin:-14px 0px 0px 90px;
+        }
+        &__subtitle{
+            margin: 20px 0px;
+        }
+        &__text{
+            margin: 0px 0px 60px 0px; 
+        }
+    }
+    &-image-content{
+        display:flex;
+        margin:50px 0px 0px 10%;
+        div{
+            margin: -80px 0px 0px 40px;
+            img:last-child{
+                margin: 40px 0px 0px 0px;
+            }
+        }
+    }
+}
+/*----contact us----*/
+.contact-us {
+	margin: 40px 0px;
+	background-color: #2C3878;
+	padding:38px 120px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	&__title {
+		color:#FFF;
+	}
+
+	&__column {
+	}
+
+	&__text {
+		color:#FFF;
+		margin: 0px 0px 40px 0px;
+	}
+}
+// Основные положения 
+@import "../scss/main.scss";
+//footer
+@import "../scss/footersyle.scss";

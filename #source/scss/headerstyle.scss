@@ -1,0 +1,41 @@
+/*----header----*/
+header{
+	width:100%;
+	padding: 40px 120px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.logo {
+}
+.logo-text {
+	color: #000;
+	font-size: 32px;
+	font-family: Poppins;
+	font-weight: 700;
+	line-height: 170%;
+}
+.logo-icon {
+	width: 45px;
+	height: 21px;
+	margin: -28px 0px 0px 55px;
+}
+
+.page-navigation {
+	& ul{
+		display:flex;
+		align-items:center;
+	}
+	&__item-link {
+		color: #333;
+		font-size: 16px;
+		font-family: Poppins;
+		font-weight: 600;
+		line-height: 140%;
+		display:inline-block;
+		white-space:nowrap;
+	}
+	&__item{
+		margin: 0px 37px;
+	}
+}
